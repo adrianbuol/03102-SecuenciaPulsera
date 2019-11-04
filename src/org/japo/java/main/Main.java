@@ -34,14 +34,15 @@ public final class Main {
         final double Pabuela = 1;
         final double PP = 0.7;
 
-        System.out.printf("Secuencia de Canicas%n====================%n");
-        System.out.printf("Nombre de la canica ........: %s%n", nombre);
+        System.out.printf("Secuencia de Pulsera%n");
+        System.out.printf("====================%n");
+        System.out.printf("Nombre de la niña ..........: %s%n", nombre);
 
         System.out.printf(Locale.ENGLISH, "Dinero inicial .............: "
                 + "%.2f €%n", Pabuela);
 
         System.out.printf("---%n");
-        System.out.printf("Artículo a comprar .........: %s €%n", Articulo);
+        System.out.printf("Artículo a comprar .........: %s %n", Articulo);
 
         System.out.printf(Locale.ENGLISH, "Precio artículo ............: "
                 + "%.2f €%n", PP);
