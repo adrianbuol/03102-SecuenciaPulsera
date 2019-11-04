@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 package org.japo.java.main;
+
 import java.util.Locale;
 
 /**
@@ -25,28 +26,30 @@ public final class Main {
     public static void main(String[] args) {
 
         // Variable
-         double dinerorest;
+        double dinerorest;
 
         //Constantes
-         final String nombre = "Marta";
-         final String Articulo = "Pulsera hippy";
-         final double Pabuela = 1;
-         final double PP = 0.7;
-        
+        final String nombre = "Marta";
+        final String Articulo = "Pulsera hippy";
+        final double Pabuela = 1;
+        final double PP = 0.7;
 
-            System.out.printf("Secuencia de Canicas%n====================%n");
-            System.out.printf("Nombre de la canica ........: %s%n", nombre);
-            
-            System.out.printf(Locale.ENGLISH, "Dinero inicial .............: %.2f €%n", Pabuela);
-            
-            System.out.printf("---%n");
-            System.out.printf("Artículo a comprar .........: %s €%n", Articulo);
-            
-            System.out.printf(Locale.ENGLISH, "Precio artículo ............: %.2f €%n", PP);
-                 dinerorest = Pabuela - PP;
-            
-            System.out.printf("---%n");
-            System.out.printf(Locale.ENGLISH, "Dinero restante ............: %.2f €%n", dinerorest);
+        System.out.printf("Secuencia de Canicas%n====================%n");
+        System.out.printf("Nombre de la canica ........: %s%n", nombre);
+
+        System.out.printf(Locale.ENGLISH, "Dinero inicial .............: "
+                + "%.2f €%n", Pabuela);
+
+        System.out.printf("---%n");
+        System.out.printf("Artículo a comprar .........: %s €%n", Articulo);
+
+        System.out.printf(Locale.ENGLISH, "Precio artículo ............: "
+                + "%.2f €%n", PP);
+        dinerorest = Pabuela - PP;
+
+        System.out.printf("---%n");
+        System.out.printf(Locale.ENGLISH, "Dinero restante ............: "
+                + "%.2f €%n", dinerorest);
 
     }
 }
